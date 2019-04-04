@@ -1,0 +1,139 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title> YS</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<script src="jquery-3.2.1.min.js"></script>
+<link rel="stylesheet" href="settings.css" />
+</head>
+<body>
+
+	<!-- Wrapper -->
+
+	<!-- Intro -->
+	<section id="intro" class="wrapper style1 fullscreen fade-up">
+		<div class="inner">
+			<h2>LZ YS</h2>
+			<ul class="actions">
+				<li><a class="button submit" id="myBtn" role="button">Save
+						Options</a></li>
+				<li><a class="button submit" id="resetOpts" role="button">Reset
+						Options</a></li>
+				<li><a class="button submit" id="SetupBypass" role="button">Bypass</a></li>
+				<li><a class="button submit" id="ClearCart" role="button">Clear Cart</a></li>
+			</ul>
+			<div class="style1">
+				<section>
+					<form name="proxy">
+						<div class="field quarter">
+							<input type="text" name="enter-proxy-text" id="proxy_input"
+								placeholder="IP:Port:User:Pass" />
+						</div>
+						<div class="field quarter">
+							<a class="button submit btn btn-primary btn-lg" id="add-proxy-button">Add Proxy</a>
+						</div>
+						<div class="field quarter">
+							<a class="button submit btn " id="select-proxy-button">Select Proxy</a>
+						</div>
+						<div class="field quarter">
+								<select class="button" id="proxy_list">
+								</select>
+						</div>
+					</form>
+				</section>
+			</div>
+
+			<div class="style1">
+				<section>
+					<form>
+						<div class="field quarter" >
+							<label for="Fill in the form">Fill in the form.</label>
+						</div>
+						<div class="field quarter">
+								<a class="button submit" id="saveProfile">Save Profile</a>
+						</div>
+						<div class="field quarter">
+							<a class="button submit" id="loadProfile">Load Profile</a>
+						</div>
+						<div class="field quarter">
+								<select class="button submit" id="profileName">
+										<option>Select Profile</option>
+								</select>
+						</div>
+
+						<div class="field half first">
+							<input type="text" name="order_billing_name"
+								id="order_billing_name" placeholder="Name" />
+						</div>
+						<div class="field half">
+							<input type="text" name="order_email" id="order_email"
+								placeholder="Email" />
+						</div>
+						<div class="field half first">
+							<input type="text" name="order_tel" id="order_tel"
+								placeholder="Phone #" />
+						</div>
+						<div class="field half">
+							<input type="text" name="shoe_size" id="shoe_size"
+								placeholder="Shoe Size" />
+						</div>
+						<div class="field">
+							<label for="Address Details">Address Details</label>
+						</div>
+						<div class="field half first">
+							<input type="text" name="order_address" id="order_address"
+								placeholder="Address" />
+						</div>
+						<div class="field half">
+							<input type="text" name="order_address2" id="order_address2"
+								placeholder="Apt, Suite" />
+						</div>
+						<div class="field half first">
+							<input type="text" name="order_billing_city"
+								id="order_billing_city" placeholder="City" />
+						</div>
+						<div class="field half">
+							<input type="text" name="order_billing_state"
+								id="order_billing_state" placeholder="State" />
+						</div>
+						<div class="field half first">
+							<input type="text" name="order_billing_country"
+								id="order_billing_country" placeholder="Country" />
+						</div>
+						<div class="field half">
+							<input type="text" name="order_billing_zip"
+								id="order_billing_zip" placeholder="Zip Code" />
+						</div>
+						<div class="field">
+							<label for="Credit Card Details">Credit Card Details</label>
+						</div>
+						<div class="field half first">
+							<input type="text" name="order_cc_name" id="order_cc_name"
+								placeholder="Name on Card" />
+						</div>
+						<div class="field half">
+							<input type="text" name="order_cc_number" id="order_cc_number"
+								placeholder="CC Number" />
+						</div>
+						<div class="field third first">
+							<input type="text" name="order_credit_card_month"
+								id="order_credit_card_month" placeholder="CC Month" />
+						</div>
+						<div class="field third">
+							<input type="text" name="order_credit_card_year"
+								id="order_credit_card_year" placeholder="CC Year" />
+						</div>
+						<div class="field third">
+							<input type="text" name="order_cvv" id="order_cvv"
+								placeholder="CVV" />
+						</div>
+					</form>
+				</section>
+			</div>
+		</div>
+	</section>
+	<!-- Scripts -->
+	<script type="text/javascript" src="settings.js"></script>
+</body>
+</html>
